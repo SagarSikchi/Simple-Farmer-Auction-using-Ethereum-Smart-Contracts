@@ -31,7 +31,6 @@ contract Auction {
         productname=_productname;
     }
 
-
     function bid(uint k) public {
  
         require(
